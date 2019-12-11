@@ -26,8 +26,8 @@ log_level：打印等级 0：禁止打印; 1：开启log_a()打印;2:开启log_a
 log_time：是否打印时间
 log_line：是否打印文件名和行号
 log_file_size：日志文件大小，单位MB
-log_file_path_1：日志文件1
-log_file_path_2：日志文件2，日志文件1超过log_file_size大小后，覆盖日志文件2
+log_file_path_1：日志文件1，超过log_file_size大小后，覆盖日志文件2，同时删除日志文件1
+log_file_path_2：日志文件2
 ```
 2. 命令行选项<br>
 -d 开启程序一开始读配置文件的打印
