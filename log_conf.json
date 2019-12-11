@@ -1,7 +1,11 @@
 {
-    "log_level": 4,
+    "print_level": 4,
     "print_time": true,
     "print_line": true,
+
+    "log_level": 4,
+    "log_time": true,
+    "log_line": true,
     "log_file_size":10,
     "log_file_path_1": "./test1.log",
     "log_file_path_2": "./test2.log"

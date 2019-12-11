@@ -13,11 +13,10 @@ int main(int argc, char *argv[])
         switch (ch)
         {
         case 'd':
-            set_option(PRINT_D);
+            set_option(&g_print_option, PRINT_D);
             break;
         }
     }
-
 
     log_init();
     log_loop_init();
