@@ -1,7 +1,7 @@
 ## linux c 日志系统
 
 1. 配置文件<br>
-./etc/log_conf.json
+./log_conf.json
 ```
 {
     "log_level": 4,
