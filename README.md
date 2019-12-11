@@ -4,7 +4,7 @@
 log_conf.json
 ```
 {
-    "print_level": 0,
+    "print_level": 4,
     "print_time": true,
     "print_line": true,
 
