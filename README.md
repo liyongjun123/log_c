@@ -35,3 +35,5 @@ log_file_path_2：日志文件2
 3. 宏<br>
 由于本工程就算设置打印等级为0,也会有去读取配置文件的运行消耗，若追求极致效率，可用宏在编译阶段进行关闭;<br>
 LOG_LEVEL_STATIC_CURRENT 设置这个宏可选择性编译log_a()、log_b()、log_c()、log_d()
+
+
